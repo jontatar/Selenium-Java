@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="io.platform.project.tests.CreateNewAccountTest">
+        <methods>
+          <include name="test"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- io.platform.project.tests.CreateNewAccountTest -->
+      <class name="io.platform.project.tests.FailureTest">
+        <methods>
+          <include name="testLogOff"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- io.platform.project.tests.FailureTest -->
+      <class name="io.platform.project.tests.PrintSearchResultsTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- io.platform.project.tests.PrintSearchResultsTest -->
+      <class name="io.platform.project.tests.ContactUsTest">
+        <methods>
+          <include name="contactUsTest" invocation-numbers="0 2 3 4 5"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- io.platform.project.tests.ContactUsTest -->
+      <class name="io.platform.project.tests.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testLogin" invocation-numbers="1 2"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- io.platform.project.tests.LoginTest -->
+      <class name="io.platform.project.tests.CatalogPageTest">
+        <methods>
+          <include name="testPageHeader"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- io.platform.project.tests.CatalogPageTest -->
+      <class name="io.platform.project.tests.ForgotPasswordTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- io.platform.project.tests.ForgotPasswordTest -->
+      <class name="io.platform.project.tests.PlaceAndConfirmOrderTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- io.platform.project.tests.PlaceAndConfirmOrderTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

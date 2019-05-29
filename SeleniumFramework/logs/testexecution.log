@@ -1,0 +1,268 @@
+2019-05-28 18:59:25,168, 0(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key browser is Chrome
+2019-05-28 18:59:27,651, 2483(ms), [io.platform.project.commons.WebDriverManager] - Chrome Browser Chosen
+2019-05-28 18:59:28,768, 3600(ms), [io.platform.project.commons.WebDriverManager] - Driver Initialization successful
+2019-05-28 18:59:28,789, 3621(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key catalogPageURL is http://107.170.213.234/catalog
+2019-05-28 18:59:32,501, 7333(ms), [io.platform.project.commons.Common] - Clicked: Proxy element for: DefaultElementLocator 'By.linkText: log yourself in'
+2019-05-28 18:59:33,370, 8202(ms), [io.platform.project.commons.Common] - Clicked: [[ChromeDriver: chrome on XP (d99bc5dbfb65c630254b60471383cf7e)] -> id: tdb4]
+2019-05-28 18:59:33,418, 8250(ms), [io.platform.project.commons.Common] - [[ChromeDriver: chrome on XP (d99bc5dbfb65c630254b60471383cf7e)] -> xpath: //*[@id="bodyContent"]/h1] found
+2019-05-28 18:59:33,444, 8276(ms), [io.platform.project.commons.Common] - Text value returned: My Account Information
+2019-05-28 18:59:33,450, 8282(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key browser is Chrome
+2019-05-28 18:59:35,548, 10380(ms), [io.platform.project.commons.WebDriverManager] - Chrome Browser Chosen
+2019-05-28 18:59:36,680, 11512(ms), [io.platform.project.commons.WebDriverManager] - Driver Initialization successful
+2019-05-28 18:59:36,688, 11520(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key contactUsPageURL is http://107.170.213.234/catalog/contact_us.php
+2019-05-28 18:59:39,758, 14590(ms), [io.platform.project.commons.Common] - Value entered into [[ChromeDriver: chrome on XP (2fe3859aec577619fed0cdc5fbce1a9a)] -> css selector: input[name='name']]: 
+2019-05-28 18:59:39,759, 14591(ms), [io.platform.project.pageObjects.ContactUsPage] - Malformed email address
+2019-05-28 18:59:39,762, 14594(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key captureLoc is C:\Jon\Programs\eclipse\eclipse\eclipse-workspace\MyFirstFramework\captures
+2019-05-28 18:59:40,248, 15080(ms), [io.platform.project.commons.Common] - 
+Assertion Failed. Screenshot taken.
+
+2019-05-28 18:59:40,300, 15132(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key browser is Chrome
+2019-05-28 18:59:42,349, 17181(ms), [io.platform.project.commons.WebDriverManager] - Chrome Browser Chosen
+2019-05-28 18:59:43,466, 18298(ms), [io.platform.project.commons.WebDriverManager] - Driver Initialization successful
+2019-05-28 18:59:43,466, 18298(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key contactUsPageURL is http://107.170.213.234/catalog/contact_us.php
+2019-05-28 18:59:44,278, 19110(ms), [io.platform.project.commons.Common] - Value entered into [[ChromeDriver: chrome on XP (ea189299f3256ed7ceb3d0be19093ae9)] -> css selector: input[name='name']]: 
+2019-05-28 18:59:44,390, 19222(ms), [io.platform.project.commons.Common] - Value entered into [[ChromeDriver: chrome on XP (ea189299f3256ed7ceb3d0be19093ae9)] -> css selector: input[name='email']]: lars@test.com
+2019-05-28 18:59:44,478, 19310(ms), [io.platform.project.commons.Common] - Value entered into [[ChromeDriver: chrome on XP (ea189299f3256ed7ceb3d0be19093ae9)] -> css selector: textarea[name='enquiry']]: Howdy!
+2019-05-28 18:59:44,869, 19701(ms), [io.platform.project.commons.Common] - Clicked: [[ChromeDriver: chrome on XP (ea189299f3256ed7ceb3d0be19093ae9)] -> id: tdb4]
+2019-05-28 18:59:44,903, 19735(ms), [io.platform.project.commons.Common] - [[ChromeDriver: chrome on XP (ea189299f3256ed7ceb3d0be19093ae9)] -> class name: contentText] found
+2019-05-28 18:59:44,926, 19758(ms), [io.platform.project.commons.Common] - Text value returned: Your enquiry has been successfully sent to the Store Owner.
+2019-05-28 18:59:49,927, 24759(ms), [io.platform.project.commons.Common] - 
+Assertion Passed
+
+2019-05-28 18:59:49,990, 24822(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key browser is Chrome
+2019-05-28 18:59:52,081, 26913(ms), [io.platform.project.commons.WebDriverManager] - Chrome Browser Chosen
+2019-05-28 18:59:53,210, 28042(ms), [io.platform.project.commons.WebDriverManager] - Driver Initialization successful
+2019-05-28 18:59:53,212, 28044(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key contactUsPageURL is http://107.170.213.234/catalog/contact_us.php
+2019-05-28 18:59:53,871, 28703(ms), [io.platform.project.commons.Common] - Value entered into [[ChromeDriver: chrome on XP (361228a8cbca174c81760df498ea8507)] -> css selector: input[name='name']]: Lars Jones
+2019-05-28 18:59:53,872, 28704(ms), [io.platform.project.pageObjects.ContactUsPage] - Malformed email address
+2019-05-28 18:59:53,874, 28706(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key captureLoc is C:\Jon\Programs\eclipse\eclipse\eclipse-workspace\MyFirstFramework\captures
+2019-05-28 18:59:54,332, 29164(ms), [io.platform.project.commons.Common] - 
+Assertion Failed. Screenshot taken.
+
+2019-05-28 18:59:54,379, 29211(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key browser is Chrome
+2019-05-28 18:59:56,453, 31285(ms), [io.platform.project.commons.WebDriverManager] - Chrome Browser Chosen
+2019-05-28 18:59:57,570, 32402(ms), [io.platform.project.commons.WebDriverManager] - Driver Initialization successful
+2019-05-28 18:59:57,571, 32403(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key contactUsPageURL is http://107.170.213.234/catalog/contact_us.php
+2019-05-28 18:59:58,320, 33152(ms), [io.platform.project.commons.Common] - Value entered into [[ChromeDriver: chrome on XP (8f8834af16aaa0fe1ab7dd29b40894af)] -> css selector: input[name='name']]: Lars Jones
+2019-05-28 18:59:58,320, 33152(ms), [io.platform.project.pageObjects.ContactUsPage] - Malformed email address
+2019-05-28 18:59:58,322, 33154(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key captureLoc is C:\Jon\Programs\eclipse\eclipse\eclipse-workspace\MyFirstFramework\captures
+2019-05-28 18:59:58,736, 33568(ms), [io.platform.project.commons.Common] - 
+Assertion Failed. Screenshot taken.
+
+2019-05-28 18:59:58,791, 33623(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key browser is Chrome
+2019-05-28 19:00:00,882, 35714(ms), [io.platform.project.commons.WebDriverManager] - Chrome Browser Chosen
+2019-05-28 19:00:02,009, 36841(ms), [io.platform.project.commons.WebDriverManager] - Driver Initialization successful
+2019-05-28 19:00:02,010, 36842(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key contactUsPageURL is http://107.170.213.234/catalog/contact_us.php
+2019-05-28 19:00:02,758, 37590(ms), [io.platform.project.commons.Common] - Value entered into [[ChromeDriver: chrome on XP (0514cda05fafbb69499a7ffca95a661b)] -> css selector: input[name='name']]: Lars Jones
+2019-05-28 19:00:02,758, 37590(ms), [io.platform.project.pageObjects.ContactUsPage] - Malformed email address
+2019-05-28 19:00:02,759, 37591(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key captureLoc is C:\Jon\Programs\eclipse\eclipse\eclipse-workspace\MyFirstFramework\captures
+2019-05-28 19:00:03,172, 38004(ms), [io.platform.project.commons.Common] - 
+Assertion Failed. Screenshot taken.
+
+2019-05-28 19:00:03,221, 38053(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key browser is Chrome
+2019-05-28 19:00:05,262, 40094(ms), [io.platform.project.commons.WebDriverManager] - Chrome Browser Chosen
+2019-05-28 19:00:06,380, 41212(ms), [io.platform.project.commons.WebDriverManager] - Driver Initialization successful
+2019-05-28 19:00:06,381, 41213(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key contactUsPageURL is http://107.170.213.234/catalog/contact_us.php
+2019-05-28 19:00:07,120, 41952(ms), [io.platform.project.commons.Common] - Value entered into [[ChromeDriver: chrome on XP (34f65e9c661e0c966115ee3b728f5490)] -> css selector: input[name='name']]: Lars Jonse
+2019-05-28 19:00:07,223, 42055(ms), [io.platform.project.commons.Common] - Value entered into [[ChromeDriver: chrome on XP (34f65e9c661e0c966115ee3b728f5490)] -> css selector: input[name='email']]: lars@test.com
+2019-05-28 19:00:07,314, 42146(ms), [io.platform.project.commons.Common] - Value entered into [[ChromeDriver: chrome on XP (34f65e9c661e0c966115ee3b728f5490)] -> css selector: textarea[name='enquiry']]: Howdy!
+2019-05-28 19:00:07,517, 42349(ms), [io.platform.project.commons.Common] - Clicked: [[ChromeDriver: chrome on XP (34f65e9c661e0c966115ee3b728f5490)] -> id: tdb4]
+2019-05-28 19:00:07,555, 42387(ms), [io.platform.project.commons.Common] - [[ChromeDriver: chrome on XP (34f65e9c661e0c966115ee3b728f5490)] -> class name: contentText] found
+2019-05-28 19:00:07,583, 42415(ms), [io.platform.project.commons.Common] - Text value returned: Full Name:
+E-Mail Address:
+Enquiry: Howdy!
+2019-05-28 19:00:07,584, 42416(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key captureLoc is C:\Jon\Programs\eclipse\eclipse\eclipse-workspace\MyFirstFramework\captures
+2019-05-28 19:00:07,933, 42765(ms), [io.platform.project.commons.Common] - 
+Assertion Failed. Screenshot taken.
+
+2019-05-28 19:00:07,987, 42819(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key browser is Chrome
+2019-05-28 19:00:10,045, 44877(ms), [io.platform.project.commons.WebDriverManager] - Chrome Browser Chosen
+2019-05-28 19:00:11,173, 46005(ms), [io.platform.project.commons.WebDriverManager] - Driver Initialization successful
+2019-05-28 19:00:11,176, 46008(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key catalogPageURL is http://107.170.213.234/catalog
+2019-05-28 19:00:14,153, 48985(ms), [io.platform.project.commons.Common] - Clicked: Proxy element for: DefaultElementLocator 'By.linkText: create an account'
+2019-05-28 19:00:14,211, 49043(ms), [io.platform.project.commons.Common] - Clicked: [[ChromeDriver: chrome on XP (31233871b07401b55a14d7d6e7ffc371)] -> css selector: input[value='m']]
+2019-05-28 19:00:14,312, 49144(ms), [io.platform.project.commons.Common] - Value entered into [[ChromeDriver: chrome on XP (31233871b07401b55a14d7d6e7ffc371)] -> name: firstname]: Jorge
+2019-05-28 19:00:14,404, 49236(ms), [io.platform.project.commons.Common] - Value entered into [[ChromeDriver: chrome on XP (31233871b07401b55a14d7d6e7ffc371)] -> name: lastname]: Jones
+2019-05-28 19:00:14,559, 49391(ms), [io.platform.project.commons.Common] - Value entered into [[ChromeDriver: chrome on XP (31233871b07401b55a14d7d6e7ffc371)] -> id: dob]: 12/21/1943
+2019-05-28 19:00:14,680, 49512(ms), [io.platform.project.commons.Common] - Value entered into [[ChromeDriver: chrome on XP (31233871b07401b55a14d7d6e7ffc371)] -> name: email_address]: jjones@test.com
+2019-05-28 19:00:14,764, 49596(ms), [io.platform.project.commons.Common] - Value entered into [[ChromeDriver: chrome on XP (31233871b07401b55a14d7d6e7ffc371)] -> name: company]: N/A
+2019-05-28 19:00:14,877, 49709(ms), [io.platform.project.commons.Common] - Value entered into [[ChromeDriver: chrome on XP (31233871b07401b55a14d7d6e7ffc371)] -> name: street_address]: 100 Main Street
+2019-05-28 19:00:14,975, 49807(ms), [io.platform.project.commons.Common] - Value entered into [[ChromeDriver: chrome on XP (31233871b07401b55a14d7d6e7ffc371)] -> name: suburb]: The Burbs
+2019-05-28 19:00:15,059, 49891(ms), [io.platform.project.commons.Common] - Value entered into [[ChromeDriver: chrome on XP (31233871b07401b55a14d7d6e7ffc371)] -> name: postcode]: 95070
+2019-05-28 19:00:15,150, 49982(ms), [io.platform.project.commons.Common] - Value entered into [[ChromeDriver: chrome on XP (31233871b07401b55a14d7d6e7ffc371)] -> name: city]: Saratoga
+2019-05-28 19:00:15,226, 50058(ms), [io.platform.project.commons.Common] - Value entered into [[ChromeDriver: chrome on XP (31233871b07401b55a14d7d6e7ffc371)] -> name: state]: CA
+2019-05-28 19:00:18,897, 53729(ms), [io.platform.project.commons.Common] - Value entered into [[ChromeDriver: chrome on XP (31233871b07401b55a14d7d6e7ffc371)] -> name: telephone]: 408-555-1212
+2019-05-28 19:00:19,010, 53842(ms), [io.platform.project.commons.Common] - Value entered into [[ChromeDriver: chrome on XP (31233871b07401b55a14d7d6e7ffc371)] -> name: fax]: 408-555-1213
+2019-05-28 19:00:19,085, 53917(ms), [io.platform.project.commons.Common] - Clicked: [[ChromeDriver: chrome on XP (31233871b07401b55a14d7d6e7ffc371)] -> name: newsletter]
+2019-05-28 19:00:19,194, 54026(ms), [io.platform.project.commons.Common] - Value entered into [[ChromeDriver: chrome on XP (31233871b07401b55a14d7d6e7ffc371)] -> name: password]: password
+2019-05-28 19:00:19,303, 54135(ms), [io.platform.project.commons.Common] - Value entered into [[ChromeDriver: chrome on XP (31233871b07401b55a14d7d6e7ffc371)] -> name: confirmation]: password
+2019-05-28 19:00:19,600, 54432(ms), [io.platform.project.commons.Common] - Clicked: [[ChromeDriver: chrome on XP (31233871b07401b55a14d7d6e7ffc371)] -> id: tdb4]
+2019-05-28 19:00:19,634, 54466(ms), [io.platform.project.commons.Common] - [[ChromeDriver: chrome on XP (31233871b07401b55a14d7d6e7ffc371)] -> xpath: //*[@id="bodyContent"]/h1] found
+2019-05-28 19:00:19,655, 54487(ms), [io.platform.project.commons.Common] - Text value returned: My Account Information
+2019-05-28 19:00:19,707, 54539(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key browser is Chrome
+2019-05-28 19:00:21,782, 56614(ms), [io.platform.project.commons.WebDriverManager] - Chrome Browser Chosen
+2019-05-28 19:00:22,914, 57746(ms), [io.platform.project.commons.WebDriverManager] - Driver Initialization successful
+2019-05-28 19:00:22,916, 57748(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key catalogPageURL is http://107.170.213.234/catalog
+2019-05-28 19:00:27,811, 62643(ms), [io.platform.project.commons.Common] - Element cannot be found - Proxy element for: DefaultElementLocator 'By.id: tdb4'
+2019-05-28 19:00:27,812, 62644(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key captureLoc is C:\Jon\Programs\eclipse\eclipse\eclipse-workspace\MyFirstFramework\captures
+2019-05-28 19:00:28,163, 62995(ms), [io.platform.project.commons.Common] - 
+Assertion Failed. Screenshot taken.
+
+2019-05-28 19:00:28,211, 63043(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key browser is Chrome
+2019-05-28 19:00:30,277, 65109(ms), [io.platform.project.commons.WebDriverManager] - Chrome Browser Chosen
+2019-05-28 19:00:31,403, 66235(ms), [io.platform.project.commons.WebDriverManager] - Driver Initialization successful
+2019-05-28 19:00:31,407, 66239(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key catalogPageURL is http://107.170.213.234/catalog
+2019-05-28 19:00:32,082, 66914(ms), [io.platform.project.commons.Common] - [[ChromeDriver: chrome on XP (5e8b49d034e08a51fc1687c19087722f)] -> xpath: //*[@id="bodyContent"]/h1] found
+2019-05-28 19:00:32,106, 66938(ms), [io.platform.project.commons.Common] - Text value returned: Welcome to iBusiness
+2019-05-28 19:00:34,350, 69182(ms), [io.platform.project.commons.Common] - Clicked: Proxy element for: DefaultElementLocator 'By.linkText: log yourself in'
+2019-05-28 19:00:34,378, 69210(ms), [io.platform.project.commons.Common] - [[ChromeDriver: chrome on XP (5e8b49d034e08a51fc1687c19087722f)] -> xpath: //*[@id="bodyContent"]/h1] found
+2019-05-28 19:00:34,397, 69229(ms), [io.platform.project.commons.Common] - Text value returned: Welcome, Please Sign In
+2019-05-28 19:00:36,597, 71429(ms), [io.platform.project.commons.Common] - Clicked: Proxy element for: DefaultElementLocator 'By.linkText: Password forgotten? Click here.'
+2019-05-28 19:00:36,625, 71457(ms), [io.platform.project.commons.Common] - [[ChromeDriver: chrome on XP (5e8b49d034e08a51fc1687c19087722f)] -> xpath: //*[@id="bodyContent"]/h1] found
+2019-05-28 19:00:36,646, 71478(ms), [io.platform.project.commons.Common] - Text value returned: I've Forgotten My Password!
+2019-05-28 19:00:36,850, 71682(ms), [io.platform.project.commons.Common] - Clicked: [[ChromeDriver: chrome on XP (5e8b49d034e08a51fc1687c19087722f)] -> id: tdb5]
+2019-05-28 19:00:36,878, 71710(ms), [io.platform.project.commons.Common] - [[ChromeDriver: chrome on XP (5e8b49d034e08a51fc1687c19087722f)] -> xpath: //*[@id="bodyContent"]/h1] found
+2019-05-28 19:00:36,898, 71730(ms), [io.platform.project.commons.Common] - Text value returned: Welcome, Please Sign In
+2019-05-28 19:00:36,898, 71730(ms), [io.platform.project.commons.Common] - 
+Assertion Passed
+
+2019-05-28 19:00:36,947, 71779(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key browser is Chrome
+2019-05-28 19:00:39,037, 73869(ms), [io.platform.project.commons.WebDriverManager] - Chrome Browser Chosen
+2019-05-28 19:00:40,159, 74991(ms), [io.platform.project.commons.WebDriverManager] - Driver Initialization successful
+2019-05-28 19:00:40,161, 74993(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key catalogPageURL is http://107.170.213.234/catalog
+2019-05-28 19:00:43,108, 77940(ms), [io.platform.project.commons.Common] - Clicked: Proxy element for: DefaultElementLocator 'By.linkText: log yourself in'
+2019-05-28 19:00:45,301, 80133(ms), [io.platform.project.commons.Common] - Clicked: Proxy element for: DefaultElementLocator 'By.linkText: Password forgotten? Click here.'
+2019-05-28 19:00:45,334, 80166(ms), [io.platform.project.commons.Common] - [[ChromeDriver: chrome on XP (1a16d3b384fa003153d5d184ffb165b1)] -> xpath: //*[@id="bodyContent"]/h1] found
+2019-05-28 19:00:45,355, 80187(ms), [io.platform.project.commons.Common] - Text value returned: I've Forgotten My Password!
+2019-05-28 19:00:45,355, 80187(ms), [io.platform.project.pageObjects.PasswordForgottenPage] - Invalid password: BAD EMAIL
+2019-05-28 19:00:45,520, 80352(ms), [io.platform.project.commons.Common] - Clicked: [[ChromeDriver: chrome on XP (1a16d3b384fa003153d5d184ffb165b1)] -> id: tdb4]
+2019-05-28 19:00:45,556, 80388(ms), [io.platform.project.commons.Common] - [[ChromeDriver: chrome on XP (1a16d3b384fa003153d5d184ffb165b1)] -> class name: messageStackError] found
+2019-05-28 19:00:45,579, 80411(ms), [io.platform.project.commons.Common] - Text value returned:  Error: The E-Mail Address was not found in our records, please try again.
+2019-05-28 19:00:45,579, 80411(ms), [io.platform.project.commons.Common] - 
+Assertion Passed
+
+2019-05-28 19:00:45,630, 80462(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key browser is Chrome
+2019-05-28 19:00:47,739, 82571(ms), [io.platform.project.commons.WebDriverManager] - Chrome Browser Chosen
+2019-05-28 19:00:48,866, 83698(ms), [io.platform.project.commons.WebDriverManager] - Driver Initialization successful
+2019-05-28 19:00:48,869, 83701(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key catalogPageURL is http://107.170.213.234/catalog
+2019-05-28 19:00:51,820, 86652(ms), [io.platform.project.commons.Common] - Clicked: Proxy element for: DefaultElementLocator 'By.linkText: log yourself in'
+2019-05-28 19:00:54,070, 88902(ms), [io.platform.project.commons.Common] - Clicked: Proxy element for: DefaultElementLocator 'By.linkText: Password forgotten? Click here.'
+2019-05-28 19:00:54,100, 88932(ms), [io.platform.project.commons.Common] - [[ChromeDriver: chrome on XP (556d62dc265ee367ecc74e3fff080acc)] -> xpath: //*[@id="bodyContent"]/h1] found
+2019-05-28 19:00:54,120, 88952(ms), [io.platform.project.commons.Common] - Text value returned: I've Forgotten My Password!
+2019-05-28 19:00:54,122, 88954(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key user1 is lars@test.com
+2019-05-28 19:00:54,223, 89055(ms), [io.platform.project.commons.Common] - Value entered into [[ChromeDriver: chrome on XP (556d62dc265ee367ecc74e3fff080acc)] -> css selector: input[name='email_address']]: lars@test.com
+2019-05-28 19:00:56,441, 91273(ms), [io.platform.project.commons.Common] - Clicked: Proxy element for: DefaultElementLocator 'By.id: tdb4'
+2019-05-28 19:00:56,483, 91315(ms), [io.platform.project.commons.Common] - [[ChromeDriver: chrome on XP (556d62dc265ee367ecc74e3fff080acc)] -> class name: contentText] found
+2019-05-28 19:00:56,505, 91337(ms), [io.platform.project.commons.Common] - Text value returned: Please check your e-mail for instructions on how to change your password. The instructions contain a link that is valid only for 24 hours or until your password has been updated.
+2019-05-28 19:00:56,505, 91337(ms), [io.platform.project.commons.Common] - 
+Assertion Passed
+
+2019-05-28 19:00:56,553, 91385(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key browser is Chrome
+2019-05-28 19:00:58,635, 93467(ms), [io.platform.project.commons.WebDriverManager] - Chrome Browser Chosen
+2019-05-28 19:00:59,757, 94589(ms), [io.platform.project.commons.WebDriverManager] - Driver Initialization successful
+2019-05-28 19:00:59,759, 94591(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key catalogPageURL is http://107.170.213.234/catalog
+2019-05-28 19:01:02,818, 97650(ms), [io.platform.project.commons.Common] - Clicked: Proxy element for: DefaultElementLocator 'By.linkText: log yourself in'
+2019-05-28 19:01:05,165, 99997(ms), [io.platform.project.commons.Common] - Clicked: Proxy element for: DefaultElementLocator 'By.linkText: Password forgotten? Click here.'
+2019-05-28 19:01:05,198, 100030(ms), [io.platform.project.commons.Common] - [[ChromeDriver: chrome on XP (e4eeefaa9942a353c7b19eec04de57f8)] -> xpath: //*[@id="bodyContent"]/h1] found
+2019-05-28 19:01:05,221, 100053(ms), [io.platform.project.commons.Common] - Text value returned: I've Forgotten My Password!
+2019-05-28 19:01:05,221, 100053(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key user1 is lars@test.com
+2019-05-28 19:01:05,318, 100150(ms), [io.platform.project.commons.Common] - Value entered into [[ChromeDriver: chrome on XP (e4eeefaa9942a353c7b19eec04de57f8)] -> css selector: input[name='email_address']]: lars@test.com
+2019-05-28 19:01:05,580, 100412(ms), [io.platform.project.commons.Common] - Clicked: [[ChromeDriver: chrome on XP (e4eeefaa9942a353c7b19eec04de57f8)] -> id: tdb4]
+2019-05-28 19:01:05,614, 100446(ms), [io.platform.project.commons.Common] - [[ChromeDriver: chrome on XP (e4eeefaa9942a353c7b19eec04de57f8)] -> class name: messageStackError] found
+2019-05-28 19:01:05,635, 100467(ms), [io.platform.project.commons.Common] - Text value returned:  Error: A password reset link has already been sent. Please try again in 5 minutes.
+2019-05-28 19:01:05,635, 100467(ms), [io.platform.project.commons.Common] - 
+Assertion Passed
+
+2019-05-28 19:01:05,682, 100514(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key browser is Chrome
+2019-05-28 19:01:07,737, 102569(ms), [io.platform.project.commons.WebDriverManager] - Chrome Browser Chosen
+2019-05-28 19:01:08,868, 103700(ms), [io.platform.project.commons.WebDriverManager] - Driver Initialization successful
+2019-05-28 19:01:08,870, 103702(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key catalogPageURL is http://107.170.213.234/catalog
+2019-05-28 19:01:12,142, 106974(ms), [io.platform.project.commons.Common] - Clicked: Proxy element for: DefaultElementLocator 'By.linkText: log yourself in'
+2019-05-28 19:01:14,349, 109181(ms), [io.platform.project.commons.Common] - Clicked: Proxy element for: DefaultElementLocator 'By.linkText: Password forgotten? Click here.'
+2019-05-28 19:01:14,379, 109211(ms), [io.platform.project.commons.Common] - [[ChromeDriver: chrome on XP (4c735e33030ea12b68ee4e45978781d1)] -> xpath: //*[@id="bodyContent"]/h1] found
+2019-05-28 19:01:14,400, 109232(ms), [io.platform.project.commons.Common] - Text value returned: I've Forgotten My Password!
+2019-05-28 19:01:14,576, 109408(ms), [io.platform.project.commons.Common] - Clicked: [[ChromeDriver: chrome on XP (4c735e33030ea12b68ee4e45978781d1)] -> id: tdb4]
+2019-05-28 19:01:14,611, 109443(ms), [io.platform.project.commons.Common] - [[ChromeDriver: chrome on XP (4c735e33030ea12b68ee4e45978781d1)] -> class name: messageStackError] found
+2019-05-28 19:01:14,632, 109464(ms), [io.platform.project.commons.Common] - Text value returned:  Error: The E-Mail Address was not found in our records, please try again.
+2019-05-28 19:01:14,632, 109464(ms), [io.platform.project.commons.Common] - 
+Assertion Passed
+
+2019-05-28 19:01:14,679, 109511(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key browser is Chrome
+2019-05-28 19:01:16,730, 111562(ms), [io.platform.project.commons.WebDriverManager] - Chrome Browser Chosen
+2019-05-28 19:01:17,853, 112685(ms), [io.platform.project.commons.WebDriverManager] - Driver Initialization successful
+2019-05-28 19:01:17,855, 112687(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key catalogPageURL is http://107.170.213.234/catalog
+2019-05-28 19:01:20,842, 115674(ms), [io.platform.project.commons.Common] - Clicked: Proxy element for: DefaultElementLocator 'By.linkText: log yourself in'
+2019-05-28 19:01:20,939, 115771(ms), [io.platform.project.commons.Common] - Value entered into [[ChromeDriver: chrome on XP (7de64f61cb206d66aa75a66d55ee6860)] -> name: email_address]: lars@test.com
+2019-05-28 19:01:21,021, 115853(ms), [io.platform.project.commons.Common] - Value entered into [[ChromeDriver: chrome on XP (7de64f61cb206d66aa75a66d55ee6860)] -> name: password]: password
+2019-05-28 19:01:23,360, 118192(ms), [io.platform.project.commons.Common] - Clicked: Proxy element for: DefaultElementLocator 'By.id: tdb5'
+2019-05-28 19:01:23,392, 118224(ms), [io.platform.project.commons.Common] - [[ChromeDriver: chrome on XP (7de64f61cb206d66aa75a66d55ee6860)] -> xpath: //*[@id="bodyContent"]/h1] found
+2019-05-28 19:01:23,412, 118244(ms), [io.platform.project.commons.Common] - Text value returned: Welcome to iBusiness
+2019-05-28 19:01:23,442, 118274(ms), [io.platform.project.commons.Common] - [[ChromeDriver: chrome on XP (7de64f61cb206d66aa75a66d55ee6860)] -> xpath: //span[@class='greetUser']] found
+2019-05-28 19:01:23,462, 118294(ms), [io.platform.project.commons.Common] - Text value returned: Larry!
+2019-05-28 19:01:23,463, 118295(ms), [io.platform.project.commons.Common] - 
+Assertion Passed
+
+2019-05-28 19:01:23,519, 118351(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key browser is Chrome
+2019-05-28 19:01:25,585, 120417(ms), [io.platform.project.commons.WebDriverManager] - Chrome Browser Chosen
+2019-05-28 19:01:26,699, 121531(ms), [io.platform.project.commons.WebDriverManager] - Driver Initialization successful
+2019-05-28 19:01:26,700, 121532(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key catalogPageURL is http://107.170.213.234/catalog
+2019-05-28 19:01:29,703, 124535(ms), [io.platform.project.commons.Common] - Clicked: Proxy element for: DefaultElementLocator 'By.linkText: log yourself in'
+2019-05-28 19:01:29,770, 124602(ms), [io.platform.project.commons.Common] - Value entered into [[ChromeDriver: chrome on XP (8220cc0c5a4a167ac236427c293d5d7b)] -> name: email_address]: 
+2019-05-28 19:01:29,838, 124670(ms), [io.platform.project.commons.Common] - Value entered into [[ChromeDriver: chrome on XP (8220cc0c5a4a167ac236427c293d5d7b)] -> name: password]: 
+2019-05-28 19:01:30,094, 124926(ms), [io.platform.project.commons.Common] - Clicked: [[ChromeDriver: chrome on XP (8220cc0c5a4a167ac236427c293d5d7b)] -> id: tdb5]
+2019-05-28 19:01:30,128, 124960(ms), [io.platform.project.commons.Common] - [[ChromeDriver: chrome on XP (8220cc0c5a4a167ac236427c293d5d7b)] -> xpath: //*[@id="bodyContent"]/h1] found
+2019-05-28 19:01:30,147, 124979(ms), [io.platform.project.commons.Common] - Text value returned: Welcome, Please Sign In
+2019-05-28 19:01:30,148, 124980(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key captureLoc is C:\Jon\Programs\eclipse\eclipse\eclipse-workspace\MyFirstFramework\captures
+2019-05-28 19:01:30,480, 125312(ms), [io.platform.project.commons.Common] - 
+Assertion Failed. Screenshot taken.
+
+2019-05-28 19:01:30,528, 125360(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key browser is Chrome
+2019-05-28 19:01:32,640, 127472(ms), [io.platform.project.commons.WebDriverManager] - Chrome Browser Chosen
+2019-05-28 19:01:33,774, 128606(ms), [io.platform.project.commons.WebDriverManager] - Driver Initialization successful
+2019-05-28 19:01:33,775, 128607(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key catalogPageURL is http://107.170.213.234/catalog
+2019-05-28 19:01:36,852, 131684(ms), [io.platform.project.commons.Common] - Clicked: Proxy element for: DefaultElementLocator 'By.linkText: log yourself in'
+2019-05-28 19:01:36,966, 131798(ms), [io.platform.project.commons.Common] - Value entered into [[ChromeDriver: chrome on XP (2cf57b2d28fd180fb95dddd3db4f8a1e)] -> name: email_address]: lars@test.com
+2019-05-28 19:01:37,047, 131879(ms), [io.platform.project.commons.Common] - Value entered into [[ChromeDriver: chrome on XP (2cf57b2d28fd180fb95dddd3db4f8a1e)] -> name: password]: incorrect
+2019-05-28 19:01:37,399, 132231(ms), [io.platform.project.commons.Common] - Clicked: [[ChromeDriver: chrome on XP (2cf57b2d28fd180fb95dddd3db4f8a1e)] -> id: tdb5]
+2019-05-28 19:01:37,430, 132262(ms), [io.platform.project.commons.Common] - [[ChromeDriver: chrome on XP (2cf57b2d28fd180fb95dddd3db4f8a1e)] -> xpath: //*[@id="bodyContent"]/h1] found
+2019-05-28 19:01:37,452, 132284(ms), [io.platform.project.commons.Common] - Text value returned: Welcome, Please Sign In
+2019-05-28 19:01:37,453, 132285(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key captureLoc is C:\Jon\Programs\eclipse\eclipse\eclipse-workspace\MyFirstFramework\captures
+2019-05-28 19:01:37,757, 132589(ms), [io.platform.project.commons.Common] - 
+Assertion Failed. Screenshot taken.
+
+2019-05-28 19:01:37,809, 132641(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key browser is Chrome
+2019-05-28 19:01:39,914, 134746(ms), [io.platform.project.commons.WebDriverManager] - Chrome Browser Chosen
+2019-05-28 19:01:41,028, 135860(ms), [io.platform.project.commons.WebDriverManager] - Driver Initialization successful
+2019-05-28 19:01:41,029, 135861(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key catalogPageURL is http://107.170.213.234/catalog
+2019-05-28 19:01:44,015, 138847(ms), [io.platform.project.commons.Common] - Clicked: Proxy element for: DefaultElementLocator 'By.linkText: log yourself in'
+2019-05-28 19:01:44,015, 138847(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key user1 is lars@test.com
+2019-05-28 19:01:44,125, 138957(ms), [io.platform.project.commons.Common] - Value entered into [[ChromeDriver: chrome on XP (27dc802a50fcb83b2e59831a2f710563)] -> name: email_address]: lars@test.com
+2019-05-28 19:01:44,126, 138958(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key pwd1 is password
+2019-05-28 19:01:44,209, 139041(ms), [io.platform.project.commons.Common] - Value entered into [[ChromeDriver: chrome on XP (27dc802a50fcb83b2e59831a2f710563)] -> name: password]: password
+2019-05-28 19:01:46,487, 141319(ms), [io.platform.project.commons.Common] - Clicked: Proxy element for: DefaultElementLocator 'By.id: tdb5'
+2019-05-28 19:01:49,384, 144216(ms), [io.platform.project.commons.Common] - Clicked: [[ChromeDriver: chrome on XP (27dc802a50fcb83b2e59831a2f710563)] -> css selector: button[type='submit']]
+2019-05-28 19:01:49,581, 144413(ms), [io.platform.project.commons.Common] - Clicked: [[ChromeDriver: chrome on XP (27dc802a50fcb83b2e59831a2f710563)] -> id: tdb6]
+2019-05-28 19:01:49,733, 144565(ms), [io.platform.project.commons.Common] - Value entered into [[ChromeDriver: chrome on XP (27dc802a50fcb83b2e59831a2f710563)] -> css selector: textarea[name='comments']]: Please leave package on back porch
+2019-05-28 19:01:49,966, 144798(ms), [io.platform.project.commons.Common] - Clicked: [[ChromeDriver: chrome on XP (27dc802a50fcb83b2e59831a2f710563)] -> id: tdb6]
+2019-05-28 19:01:50,024, 144856(ms), [io.platform.project.commons.Common] - Clicked: [[ChromeDriver: chrome on XP (27dc802a50fcb83b2e59831a2f710563)] -> css selector: input[value='cod']]
+2019-05-28 19:01:50,169, 145001(ms), [io.platform.project.commons.Common] - Value entered into [[ChromeDriver: chrome on XP (27dc802a50fcb83b2e59831a2f710563)] -> css selector: textarea[name='comments']]: Do you take travelers checks?
+2019-05-28 19:01:52,409, 147241(ms), [io.platform.project.commons.Common] - Clicked: Proxy element for: DefaultElementLocator 'By.id: tdb6'
+2019-05-28 19:01:52,678, 147510(ms), [io.platform.project.commons.Common] - Clicked: [[ChromeDriver: chrome on XP (27dc802a50fcb83b2e59831a2f710563)] -> id: tdb5]
+2019-05-28 19:01:52,753, 147585(ms), [io.platform.project.commons.Common] - Clicked: [[ChromeDriver: chrome on XP (27dc802a50fcb83b2e59831a2f710563)] -> css selector: input[name='notify[]']]
+2019-05-28 19:01:54,989, 149821(ms), [io.platform.project.commons.Common] - Clicked: Proxy element for: DefaultElementLocator 'By.id: tdb5'
+2019-05-28 19:01:55,137, 149969(ms), [io.platform.project.commons.Common] - Clicked: [[ChromeDriver: chrome on XP (27dc802a50fcb83b2e59831a2f710563)] -> id: tdb4]
+2019-05-28 19:01:57,332, 152164(ms), [io.platform.project.commons.Common] - Clicked: Proxy element for: DefaultElementLocator 'By.id: tdb4'
+2019-05-28 19:01:57,333, 152165(ms), [io.platform.project.commons.Common] - 
+Assertion Passed
+
+2019-05-28 19:01:57,383, 152215(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key browser is Chrome
+2019-05-28 19:01:59,458, 154290(ms), [io.platform.project.commons.WebDriverManager] - Chrome Browser Chosen
+2019-05-28 19:02:00,581, 155413(ms), [io.platform.project.commons.WebDriverManager] - Driver Initialization successful
+2019-05-28 19:02:00,583, 155415(ms), [io.platform.project.commons.ReadPropertyFile] - Value in Property file for key catalogPageURL is http://107.170.213.234/catalog
+2019-05-28 19:02:01,506, 156338(ms), [io.platform.project.commons.Common] - Value entered into [[ChromeDriver: chrome on XP (dbef04608c4ebf3e3eb226d04af8522e)] -> css selector: input[name='keywords']]: A
+2019-05-28 19:02:01,823, 156655(ms), [io.platform.project.commons.Common] - Clicked: [[ChromeDriver: chrome on XP (dbef04608c4ebf3e3eb226d04af8522e)] -> css selector: input[title=' Quick Find ']]
+2019-05-28 19:02:04,793, 159625(ms), [io.platform.project.commons.Common] - Clicked: Proxy element for: DefaultElementLocator 'By.xpath: //u[contains(text(),'[Next >>]')]'
+2019-05-28 19:02:09,120, 163952(ms), [io.platform.project.commons.Common] - Element cannot be found - Proxy element for: DefaultElementLocator 'By.xpath: //u[contains(text(),'[Next >>]')]'
+2019-05-28 19:02:09,121, 163953(ms), [io.platform.project.commons.Common] - 
+Assertion Passed
+

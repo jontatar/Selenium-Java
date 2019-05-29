@@ -1,0 +1,14 @@
+io\platform\project\data\ContactUsData.class
+io\platform\project\tests\ForgotPasswordTest.class
+io\platform\project\tests\ContactUsTest.class
+io\platform\project\tests\CreateNewAccountTest.class
+io\platform\project\tests\Scratch.class
+io\platform\project\tests\VerifyAllResultLinks.class
+io\platform\project\tests\CatalogPageTest.class
+io\platform\project\tests\FailureTest.class
+io\platform\project\tests\LoginTest.class
+io\platform\project\tests\PlaceAndConfirmOrderTest.class
+io\platform\project\data\LoginData.class
+io\platform\project\tests\PrintManufacturersDDValues.class
+io\platform\project\tests\PrintSearchResultsTest.class
+io\platform\project\tests\SelectManufacturer.class
