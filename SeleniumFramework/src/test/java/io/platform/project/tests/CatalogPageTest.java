@@ -42,8 +42,7 @@ public class CatalogPageTest {
 	}
 	
 	@AfterTest
-	public void tearDown() throws Exception {
-		Thread.sleep(3000);
+	public void tearDown() {
 		driver.close();
 	}
 

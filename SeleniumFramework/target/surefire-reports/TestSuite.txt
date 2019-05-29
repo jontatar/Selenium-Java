@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 21, Failures: 10, Errors: 0, Skipped: 0, Time elapsed: 169.654 sec <<< FAILURE!
-testPageHeader(io.platform.project.tests.CatalogPageTest)  Time elapsed: 0.077 sec  <<< FAILURE!
+Tests run: 21, Failures: 11, Errors: 0, Skipped: 0, Time elapsed: 160.849 sec <<< FAILURE!
+testPageHeader(io.platform.project.tests.CatalogPageTest)  Time elapsed: 0.08 sec  <<< FAILURE!
 java.lang.AssertionError: expected [Welcome to iBusiness] but found [My Account Information]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
@@ -11,10 +11,21 @@ java.lang.AssertionError: expected [Welcome to iBusiness] but found [My Account 
 	at org.testng.Assert.assertEquals(Assert.java:186)
 	at io.platform.project.tests.CatalogPageTest.testPageHeader(CatalogPageTest.java:31)
 
-contactUsTest(io.platform.project.tests.ContactUsTest)  Time elapsed: 0.083 sec  <<< FAILURE!
+contactUsTest(io.platform.project.tests.ContactUsTest)  Time elapsed: 0.085 sec  <<< FAILURE!
 java.lang.RuntimeException: Malformed email address
 	at io.platform.project.pageObjects.ContactUsPage.fillInEmailTextBox(ContactUsPage.java:58)
 	at io.platform.project.tests.ContactUsTest.contactUsTest(ContactUsTest.java:36)
+
+contactUsTest(io.platform.project.tests.ContactUsTest)  Time elapsed: 0.557 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Your enquiry has been successfully sent to the Store Owner.] but found [Full Name:
+E-Mail Address:
+Enquiry: Howdy!]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at io.platform.project.tests.ContactUsTest.contactUsTest(ContactUsTest.java:39)
 
 contactUsTest(io.platform.project.tests.ContactUsTest)  Time elapsed: 0.111 sec  <<< FAILURE!
 java.lang.RuntimeException: Malformed email address
@@ -26,12 +37,12 @@ java.lang.RuntimeException: Malformed email address
 	at io.platform.project.pageObjects.ContactUsPage.fillInEmailTextBox(ContactUsPage.java:58)
 	at io.platform.project.tests.ContactUsTest.contactUsTest(ContactUsTest.java:36)
 
-contactUsTest(io.platform.project.tests.ContactUsTest)  Time elapsed: 0.125 sec  <<< FAILURE!
+contactUsTest(io.platform.project.tests.ContactUsTest)  Time elapsed: 0.114 sec  <<< FAILURE!
 java.lang.RuntimeException: Malformed email address
 	at io.platform.project.pageObjects.ContactUsPage.fillInEmailTextBox(ContactUsPage.java:58)
 	at io.platform.project.tests.ContactUsTest.contactUsTest(ContactUsTest.java:36)
 
-contactUsTest(io.platform.project.tests.ContactUsTest)  Time elapsed: 0.567 sec  <<< FAILURE!
+contactUsTest(io.platform.project.tests.ContactUsTest)  Time elapsed: 0.598 sec  <<< FAILURE!
 java.lang.AssertionError: expected [Your enquiry has been successfully sent to the Store Owner.] but found [Full Name:
 E-Mail Address:
 Enquiry: Howdy!]
@@ -42,7 +53,7 @@ Enquiry: Howdy!]
 	at org.testng.Assert.assertEquals(Assert.java:186)
 	at io.platform.project.tests.ContactUsTest.contactUsTest(ContactUsTest.java:39)
 
-test(io.platform.project.tests.CreateNewAccountTest)  Time elapsed: 7.774 sec  <<< FAILURE!
+test(io.platform.project.tests.CreateNewAccountTest)  Time elapsed: 7.632 sec  <<< FAILURE!
 java.lang.AssertionError: expected [Your Account Has Been Created!] but found [My Account Information]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
@@ -51,13 +62,13 @@ java.lang.AssertionError: expected [Your Account Has Been Created!] but found [M
 	at org.testng.Assert.assertEquals(Assert.java:186)
 	at io.platform.project.tests.CreateNewAccountTest.test(CreateNewAccountTest.java:57)
 
-testLogOff(io.platform.project.tests.FailureTest)  Time elapsed: 4.089 sec  <<< FAILURE!
+testLogOff(io.platform.project.tests.FailureTest)  Time elapsed: 4.101 sec  <<< FAILURE!
 java.lang.RuntimeException: Element cannot be found
 	at io.platform.project.commons.Common.clickElement(Common.java:57)
 	at io.platform.project.pageObjects.CatalogPage.clickLogOffButton(CatalogPage.java:132)
 	at io.platform.project.tests.FailureTest.testLogOff(FailureTest.java:32)
 
-testLogin(io.platform.project.tests.LoginTest)  Time elapsed: 2.696 sec  <<< FAILURE!
+testLogin(io.platform.project.tests.LoginTest)  Time elapsed: 2.62 sec  <<< FAILURE!
 java.lang.AssertionError: expected [Welcome to iBusiness] but found [Welcome, Please Sign In]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
@@ -66,7 +77,7 @@ java.lang.AssertionError: expected [Welcome to iBusiness] but found [Welcome, Pl
 	at org.testng.Assert.assertEquals(Assert.java:186)
 	at io.platform.project.tests.LoginTest.testLogin(LoginTest.java:41)
 
-testLogin(io.platform.project.tests.LoginTest)  Time elapsed: 2.82 sec  <<< FAILURE!
+testLogin(io.platform.project.tests.LoginTest)  Time elapsed: 2.772 sec  <<< FAILURE!
 java.lang.AssertionError: expected [Welcome to iBusiness] but found [Welcome, Please Sign In]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)

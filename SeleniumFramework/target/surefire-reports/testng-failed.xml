@@ -25,7 +25,7 @@
       </class> <!-- io.platform.project.tests.PrintSearchResultsTest -->
       <class name="io.platform.project.tests.ContactUsTest">
         <methods>
-          <include name="contactUsTest" invocation-numbers="0 2 3 4 5"/>
+          <include name="contactUsTest" invocation-numbers="0 1 2 3 4 5"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>

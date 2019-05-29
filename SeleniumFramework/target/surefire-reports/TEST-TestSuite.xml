@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="21" failures="10" name="TestSuite" time="82.012" errors="0" skipped="0">
+<testsuite tests="21" failures="11" name="TestSuite" time="75.465" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="12+33"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Jon\Programs\eclipse\eclipse\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7119411969095509332.tmp"/>
+    <property name="classworlds.conf" value="C:\Jon\Programs\eclipse\eclipse\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf12541472526728424651.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Jon\Programs\Java\jdk-12\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Jon/Programs/Java/jdk-12/bin/server;C:/Jon/Programs/Java/jdk-12/bin;C:\Jon\Programs\Java\jdk-12\bin;C:\Jon\Programs\apache-maven-3.6.0\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\Jon\AppData\Local\Android\Sdk\tools;C:\Git\cmd;C:\Users\Jon\AppData\Local\Microsoft\WindowsApps;C:\Jon\Programs\IntelliJ_IDEA\bin;;C:\Jon\Programs\Java\jdk-12\bin;;C:\Users\Jon\Desktop;;."/>
     <property name="jdk.debug" value="release"/>
@@ -42,7 +42,7 @@
     <property name="java.class.path" value="C:\Users\Jon\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.11.0.20190220-2117\jars\plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="12"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
     <property name="java.home" value="C:\Jon\Programs\Java\jdk-12"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -59,9 +59,9 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="io.platform.project.tests.CatalogPageTest" name="testGoToLoginPage" time="2.55"/>
-  <testcase classname="io.platform.project.tests.CatalogPageTest" name="testLoggedIn" time="0.868"/>
-  <testcase classname="io.platform.project.tests.CatalogPageTest" name="testPageHeader" time="0.077">
+  <testcase classname="io.platform.project.tests.CatalogPageTest" name="testGoToLoginPage" time="2.24"/>
+  <testcase classname="io.platform.project.tests.CatalogPageTest" name="testLoggedIn" time="0.238"/>
+  <testcase classname="io.platform.project.tests.CatalogPageTest" name="testPageHeader" time="0.08">
     <failure message="expected [Welcome to iBusiness] but found [My Account Information]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Welcome to iBusiness] but found [My Account Information]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
@@ -70,11 +70,11 @@
 	at org.testng.Assert.assertEquals(Assert.java:186)
 	at io.platform.project.tests.CatalogPageTest.testPageHeader(CatalogPageTest.java:31)
 </failure>
-    <system-out>[Common] - [[ChromeDriver: chrome on XP (d99bc5dbfb65c630254b60471383cf7e)] -&gt; xpath: //*[@id=&quot;bodyContent&quot;]/h1] found
+    <system-out>[Common] - [[ChromeDriver: chrome on XP (619c9146f085c970d6726932dd725548)] -&gt; xpath: //*[@id=&quot;bodyContent&quot;]/h1] found
 [Common] - Text value returned: My Account Information
 </system-out>
   </testcase>
-  <testcase classname="io.platform.project.tests.ContactUsTest" name="contactUsTest" time="0.083">
+  <testcase classname="io.platform.project.tests.ContactUsTest" name="contactUsTest" time="0.085">
     <failure message="Malformed email address" type="java.lang.RuntimeException">java.lang.RuntimeException: Malformed email address
 	at io.platform.project.pageObjects.ContactUsPage.fillInEmailTextBox(ContactUsPage.java:58)
 	at io.platform.project.tests.ContactUsTest.contactUsTest(ContactUsTest.java:36)
@@ -83,86 +83,17 @@
 [WebDriverManager] - Chrome Browser Chosen
 [WebDriverManager] - Driver Initialization successful
 [ReadPropertyFile] - Value in Property file for key contactUsPageURL is http://107.170.213.234/catalog/contact_us.php
-[Common] - Value entered into [[ChromeDriver: chrome on XP (2fe3859aec577619fed0cdc5fbce1a9a)] -&gt; css selector: input[name=&apos;name&apos;]]: 
+[Common] - Value entered into [[ChromeDriver: chrome on XP (314e9fbb9d37f8d7acf11f36bfa21125)] -&gt; css selector: input[name=&apos;name&apos;]]: 
 [ContactUsPage] - Malformed email address
 </system-out>
-    <system-err>Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 21801
+    <system-err>Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 30581
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-May 28, 2019 6:59:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 28, 2019 7:23:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 </system-err>
   </testcase>
-  <testcase classname="io.platform.project.tests.ContactUsTest" name="contactUsTest" time="5.729"/>
-  <testcase classname="io.platform.project.tests.ContactUsTest" name="contactUsTest" time="0.111">
-    <failure message="Malformed email address" type="java.lang.RuntimeException">java.lang.RuntimeException: Malformed email address
-	at io.platform.project.pageObjects.ContactUsPage.fillInEmailTextBox(ContactUsPage.java:58)
-	at io.platform.project.tests.ContactUsTest.contactUsTest(ContactUsTest.java:36)
-</failure>
-    <system-out>[Common] - 
-Assertion Passed
-
-[ReadPropertyFile] - Value in Property file for key browser is Chrome
-[WebDriverManager] - Chrome Browser Chosen
-[WebDriverManager] - Driver Initialization successful
-[ReadPropertyFile] - Value in Property file for key contactUsPageURL is http://107.170.213.234/catalog/contact_us.php
-[Common] - Value entered into [[ChromeDriver: chrome on XP (361228a8cbca174c81760df498ea8507)] -&gt; css selector: input[name=&apos;name&apos;]]: Lars Jones
-[ContactUsPage] - Malformed email address
-</system-out>
-    <system-err>Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 3213
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-May 28, 2019 6:59:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-</system-err>
-  </testcase>
-  <testcase classname="io.platform.project.tests.ContactUsTest" name="contactUsTest" time="0.117">
-    <failure message="Malformed email address" type="java.lang.RuntimeException">java.lang.RuntimeException: Malformed email address
-	at io.platform.project.pageObjects.ContactUsPage.fillInEmailTextBox(ContactUsPage.java:58)
-	at io.platform.project.tests.ContactUsTest.contactUsTest(ContactUsTest.java:36)
-</failure>
-    <system-out>[ReadPropertyFile] - Value in Property file for key captureLoc is C:\Jon\Programs\eclipse\eclipse\eclipse-workspace\MyFirstFramework\captures
-[Common] - 
-Assertion Failed. Screenshot taken.
-
-[ReadPropertyFile] - Value in Property file for key browser is Chrome
-[WebDriverManager] - Chrome Browser Chosen
-[WebDriverManager] - Driver Initialization successful
-[ReadPropertyFile] - Value in Property file for key contactUsPageURL is http://107.170.213.234/catalog/contact_us.php
-[Common] - Value entered into [[ChromeDriver: chrome on XP (8f8834af16aaa0fe1ab7dd29b40894af)] -&gt; css selector: input[name=&apos;name&apos;]]: Lars Jones
-[ContactUsPage] - Malformed email address
-</system-out>
-    <system-err>Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 8751
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-May 28, 2019 6:59:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-</system-err>
-  </testcase>
-  <testcase classname="io.platform.project.tests.ContactUsTest" name="contactUsTest" time="0.125">
-    <failure message="Malformed email address" type="java.lang.RuntimeException">java.lang.RuntimeException: Malformed email address
-	at io.platform.project.pageObjects.ContactUsPage.fillInEmailTextBox(ContactUsPage.java:58)
-	at io.platform.project.tests.ContactUsTest.contactUsTest(ContactUsTest.java:36)
-</failure>
-    <system-out>[ReadPropertyFile] - Value in Property file for key captureLoc is C:\Jon\Programs\eclipse\eclipse\eclipse-workspace\MyFirstFramework\captures
-[Common] - 
-Assertion Failed. Screenshot taken.
-
-[ReadPropertyFile] - Value in Property file for key browser is Chrome
-[WebDriverManager] - Chrome Browser Chosen
-[WebDriverManager] - Driver Initialization successful
-[ReadPropertyFile] - Value in Property file for key contactUsPageURL is http://107.170.213.234/catalog/contact_us.php
-[Common] - Value entered into [[ChromeDriver: chrome on XP (0514cda05fafbb69499a7ffca95a661b)] -&gt; css selector: input[name=&apos;name&apos;]]: Lars Jones
-[ContactUsPage] - Malformed email address
-</system-out>
-    <system-err>Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 39581
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-May 28, 2019 7:00:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-</system-err>
-  </testcase>
-  <testcase classname="io.platform.project.tests.ContactUsTest" name="contactUsTest" time="0.567">
+  <testcase classname="io.platform.project.tests.ContactUsTest" name="contactUsTest" time="0.557">
     <failure message="expected [Your enquiry has been successfully sent to the Store Owner.] but found [Full Name:
 E-Mail Address:
 Enquiry: Howdy!]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Your enquiry has been successfully sent to the Store Owner.] but found [Full Name:
@@ -183,23 +114,129 @@ Assertion Failed. Screenshot taken.
 [WebDriverManager] - Chrome Browser Chosen
 [WebDriverManager] - Driver Initialization successful
 [ReadPropertyFile] - Value in Property file for key contactUsPageURL is http://107.170.213.234/catalog/contact_us.php
-[Common] - Value entered into [[ChromeDriver: chrome on XP (34f65e9c661e0c966115ee3b728f5490)] -&gt; css selector: input[name=&apos;name&apos;]]: Lars Jonse
-[Common] - Value entered into [[ChromeDriver: chrome on XP (34f65e9c661e0c966115ee3b728f5490)] -&gt; css selector: input[name=&apos;email&apos;]]: lars@test.com
-[Common] - Value entered into [[ChromeDriver: chrome on XP (34f65e9c661e0c966115ee3b728f5490)] -&gt; css selector: textarea[name=&apos;enquiry&apos;]]: Howdy!
-[Common] - Clicked: [[ChromeDriver: chrome on XP (34f65e9c661e0c966115ee3b728f5490)] -&gt; id: tdb4]
-[Common] - [[ChromeDriver: chrome on XP (34f65e9c661e0c966115ee3b728f5490)] -&gt; class name: contentText] found
+[Common] - Value entered into [[ChromeDriver: chrome on XP (0331ffdece445890c7b57120fbd610dd)] -&gt; css selector: input[name=&apos;name&apos;]]: 
+[Common] - Value entered into [[ChromeDriver: chrome on XP (0331ffdece445890c7b57120fbd610dd)] -&gt; css selector: input[name=&apos;email&apos;]]: lars@test.com
+[Common] - Value entered into [[ChromeDriver: chrome on XP (0331ffdece445890c7b57120fbd610dd)] -&gt; css selector: textarea[name=&apos;enquiry&apos;]]: Howdy!
+[Common] - Clicked: [[ChromeDriver: chrome on XP (0331ffdece445890c7b57120fbd610dd)] -&gt; id: tdb4]
+[Common] - [[ChromeDriver: chrome on XP (0331ffdece445890c7b57120fbd610dd)] -&gt; class name: contentText] found
 [Common] - Text value returned: Full Name:
 E-Mail Address:
 Enquiry: Howdy!
 </system-out>
-    <system-err>Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 13518
+    <system-err>Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 8305
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-May 28, 2019 7:00:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 28, 2019 7:23:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 </system-err>
   </testcase>
-  <testcase classname="io.platform.project.tests.CreateNewAccountTest" name="test" time="7.774">
+  <testcase classname="io.platform.project.tests.ContactUsTest" name="contactUsTest" time="0.111">
+    <failure message="Malformed email address" type="java.lang.RuntimeException">java.lang.RuntimeException: Malformed email address
+	at io.platform.project.pageObjects.ContactUsPage.fillInEmailTextBox(ContactUsPage.java:58)
+	at io.platform.project.tests.ContactUsTest.contactUsTest(ContactUsTest.java:36)
+</failure>
+    <system-out>[ReadPropertyFile] - Value in Property file for key captureLoc is C:\Jon\Programs\eclipse\eclipse\eclipse-workspace\MyFirstFramework\captures
+[Common] - 
+Assertion Failed. Screenshot taken.
+
+[ReadPropertyFile] - Value in Property file for key browser is Chrome
+[WebDriverManager] - Chrome Browser Chosen
+[WebDriverManager] - Driver Initialization successful
+[ReadPropertyFile] - Value in Property file for key contactUsPageURL is http://107.170.213.234/catalog/contact_us.php
+[Common] - Value entered into [[ChromeDriver: chrome on XP (7f1b25030d66ce8bdc3c2243b3179944)] -&gt; css selector: input[name=&apos;name&apos;]]: Lars Jones
+[ContactUsPage] - Malformed email address
+</system-out>
+    <system-err>Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 6134
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+May 28, 2019 7:23:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+  <testcase classname="io.platform.project.tests.ContactUsTest" name="contactUsTest" time="0.117">
+    <failure message="Malformed email address" type="java.lang.RuntimeException">java.lang.RuntimeException: Malformed email address
+	at io.platform.project.pageObjects.ContactUsPage.fillInEmailTextBox(ContactUsPage.java:58)
+	at io.platform.project.tests.ContactUsTest.contactUsTest(ContactUsTest.java:36)
+</failure>
+    <system-out>[ReadPropertyFile] - Value in Property file for key captureLoc is C:\Jon\Programs\eclipse\eclipse\eclipse-workspace\MyFirstFramework\captures
+[Common] - 
+Assertion Failed. Screenshot taken.
+
+[ReadPropertyFile] - Value in Property file for key browser is Chrome
+[WebDriverManager] - Chrome Browser Chosen
+[WebDriverManager] - Driver Initialization successful
+[ReadPropertyFile] - Value in Property file for key contactUsPageURL is http://107.170.213.234/catalog/contact_us.php
+[Common] - Value entered into [[ChromeDriver: chrome on XP (66eb7cc92da6df4be37a7db89a0a4578)] -&gt; css selector: input[name=&apos;name&apos;]]: Lars Jones
+[ContactUsPage] - Malformed email address
+</system-out>
+    <system-err>Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 23460
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+May 28, 2019 7:23:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+  <testcase classname="io.platform.project.tests.ContactUsTest" name="contactUsTest" time="0.114">
+    <failure message="Malformed email address" type="java.lang.RuntimeException">java.lang.RuntimeException: Malformed email address
+	at io.platform.project.pageObjects.ContactUsPage.fillInEmailTextBox(ContactUsPage.java:58)
+	at io.platform.project.tests.ContactUsTest.contactUsTest(ContactUsTest.java:36)
+</failure>
+    <system-out>[ReadPropertyFile] - Value in Property file for key captureLoc is C:\Jon\Programs\eclipse\eclipse\eclipse-workspace\MyFirstFramework\captures
+[Common] - 
+Assertion Failed. Screenshot taken.
+
+[ReadPropertyFile] - Value in Property file for key browser is Chrome
+[WebDriverManager] - Chrome Browser Chosen
+[WebDriverManager] - Driver Initialization successful
+[ReadPropertyFile] - Value in Property file for key contactUsPageURL is http://107.170.213.234/catalog/contact_us.php
+[Common] - Value entered into [[ChromeDriver: chrome on XP (cc47e3e29bce64f02731e0ac01a47173)] -&gt; css selector: input[name=&apos;name&apos;]]: Lars Jones
+[ContactUsPage] - Malformed email address
+</system-out>
+    <system-err>Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 18592
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+May 28, 2019 7:24:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+  <testcase classname="io.platform.project.tests.ContactUsTest" name="contactUsTest" time="0.598">
+    <failure message="expected [Your enquiry has been successfully sent to the Store Owner.] but found [Full Name:
+E-Mail Address:
+Enquiry: Howdy!]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Your enquiry has been successfully sent to the Store Owner.] but found [Full Name:
+E-Mail Address:
+Enquiry: Howdy!]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at io.platform.project.tests.ContactUsTest.contactUsTest(ContactUsTest.java:39)
+</failure>
+    <system-out>[ReadPropertyFile] - Value in Property file for key captureLoc is C:\Jon\Programs\eclipse\eclipse\eclipse-workspace\MyFirstFramework\captures
+[Common] - 
+Assertion Failed. Screenshot taken.
+
+[ReadPropertyFile] - Value in Property file for key browser is Chrome
+[WebDriverManager] - Chrome Browser Chosen
+[WebDriverManager] - Driver Initialization successful
+[ReadPropertyFile] - Value in Property file for key contactUsPageURL is http://107.170.213.234/catalog/contact_us.php
+[Common] - Value entered into [[ChromeDriver: chrome on XP (4fa9f11bc338f12433fd9b744c316a6d)] -&gt; css selector: input[name=&apos;name&apos;]]: Lars Jonse
+[Common] - Value entered into [[ChromeDriver: chrome on XP (4fa9f11bc338f12433fd9b744c316a6d)] -&gt; css selector: input[name=&apos;email&apos;]]: lars@test.com
+[Common] - Value entered into [[ChromeDriver: chrome on XP (4fa9f11bc338f12433fd9b744c316a6d)] -&gt; css selector: textarea[name=&apos;enquiry&apos;]]: Howdy!
+[Common] - Clicked: [[ChromeDriver: chrome on XP (4fa9f11bc338f12433fd9b744c316a6d)] -&gt; id: tdb4]
+[Common] - [[ChromeDriver: chrome on XP (4fa9f11bc338f12433fd9b744c316a6d)] -&gt; class name: contentText] found
+[Common] - Text value returned: Full Name:
+E-Mail Address:
+Enquiry: Howdy!
+</system-out>
+    <system-err>Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 47087
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+May 28, 2019 7:24:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+  <testcase classname="io.platform.project.tests.CreateNewAccountTest" name="test" time="7.632">
     <failure message="expected [Your Account Has Been Created!] but found [My Account Information]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Your Account Has Been Created!] but found [My Account Information]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
@@ -217,34 +254,34 @@ Assertion Failed. Screenshot taken.
 [WebDriverManager] - Driver Initialization successful
 [ReadPropertyFile] - Value in Property file for key catalogPageURL is http://107.170.213.234/catalog
 [Common] - Clicked: Proxy element for: DefaultElementLocator &apos;By.linkText: create an account&apos;
-[Common] - Clicked: [[ChromeDriver: chrome on XP (31233871b07401b55a14d7d6e7ffc371)] -&gt; css selector: input[value=&apos;m&apos;]]
-[Common] - Value entered into [[ChromeDriver: chrome on XP (31233871b07401b55a14d7d6e7ffc371)] -&gt; name: firstname]: Jorge
-[Common] - Value entered into [[ChromeDriver: chrome on XP (31233871b07401b55a14d7d6e7ffc371)] -&gt; name: lastname]: Jones
-[Common] - Value entered into [[ChromeDriver: chrome on XP (31233871b07401b55a14d7d6e7ffc371)] -&gt; id: dob]: 12/21/1943
-[Common] - Value entered into [[ChromeDriver: chrome on XP (31233871b07401b55a14d7d6e7ffc371)] -&gt; name: email_address]: jjones@test.com
-[Common] - Value entered into [[ChromeDriver: chrome on XP (31233871b07401b55a14d7d6e7ffc371)] -&gt; name: company]: N/A
-[Common] - Value entered into [[ChromeDriver: chrome on XP (31233871b07401b55a14d7d6e7ffc371)] -&gt; name: street_address]: 100 Main Street
-[Common] - Value entered into [[ChromeDriver: chrome on XP (31233871b07401b55a14d7d6e7ffc371)] -&gt; name: suburb]: The Burbs
-[Common] - Value entered into [[ChromeDriver: chrome on XP (31233871b07401b55a14d7d6e7ffc371)] -&gt; name: postcode]: 95070
-[Common] - Value entered into [[ChromeDriver: chrome on XP (31233871b07401b55a14d7d6e7ffc371)] -&gt; name: city]: Saratoga
-[Common] - Value entered into [[ChromeDriver: chrome on XP (31233871b07401b55a14d7d6e7ffc371)] -&gt; name: state]: CA
-[Common] - Value entered into [[ChromeDriver: chrome on XP (31233871b07401b55a14d7d6e7ffc371)] -&gt; name: telephone]: 408-555-1212
-[Common] - Value entered into [[ChromeDriver: chrome on XP (31233871b07401b55a14d7d6e7ffc371)] -&gt; name: fax]: 408-555-1213
-[Common] - Clicked: [[ChromeDriver: chrome on XP (31233871b07401b55a14d7d6e7ffc371)] -&gt; name: newsletter]
-[Common] - Value entered into [[ChromeDriver: chrome on XP (31233871b07401b55a14d7d6e7ffc371)] -&gt; name: password]: password
-[Common] - Value entered into [[ChromeDriver: chrome on XP (31233871b07401b55a14d7d6e7ffc371)] -&gt; name: confirmation]: password
-[Common] - Clicked: [[ChromeDriver: chrome on XP (31233871b07401b55a14d7d6e7ffc371)] -&gt; id: tdb4]
-[Common] - [[ChromeDriver: chrome on XP (31233871b07401b55a14d7d6e7ffc371)] -&gt; xpath: //*[@id=&quot;bodyContent&quot;]/h1] found
+[Common] - Clicked: [[ChromeDriver: chrome on XP (fc96532a9cbc0e317df08c7b62946f91)] -&gt; css selector: input[value=&apos;m&apos;]]
+[Common] - Value entered into [[ChromeDriver: chrome on XP (fc96532a9cbc0e317df08c7b62946f91)] -&gt; name: firstname]: Jorge
+[Common] - Value entered into [[ChromeDriver: chrome on XP (fc96532a9cbc0e317df08c7b62946f91)] -&gt; name: lastname]: Jones
+[Common] - Value entered into [[ChromeDriver: chrome on XP (fc96532a9cbc0e317df08c7b62946f91)] -&gt; id: dob]: 12/21/1943
+[Common] - Value entered into [[ChromeDriver: chrome on XP (fc96532a9cbc0e317df08c7b62946f91)] -&gt; name: email_address]: jjones@test.com
+[Common] - Value entered into [[ChromeDriver: chrome on XP (fc96532a9cbc0e317df08c7b62946f91)] -&gt; name: company]: N/A
+[Common] - Value entered into [[ChromeDriver: chrome on XP (fc96532a9cbc0e317df08c7b62946f91)] -&gt; name: street_address]: 100 Main Street
+[Common] - Value entered into [[ChromeDriver: chrome on XP (fc96532a9cbc0e317df08c7b62946f91)] -&gt; name: suburb]: The Burbs
+[Common] - Value entered into [[ChromeDriver: chrome on XP (fc96532a9cbc0e317df08c7b62946f91)] -&gt; name: postcode]: 95070
+[Common] - Value entered into [[ChromeDriver: chrome on XP (fc96532a9cbc0e317df08c7b62946f91)] -&gt; name: city]: Saratoga
+[Common] - Value entered into [[ChromeDriver: chrome on XP (fc96532a9cbc0e317df08c7b62946f91)] -&gt; name: state]: CA
+[Common] - Value entered into [[ChromeDriver: chrome on XP (fc96532a9cbc0e317df08c7b62946f91)] -&gt; name: telephone]: 408-555-1212
+[Common] - Value entered into [[ChromeDriver: chrome on XP (fc96532a9cbc0e317df08c7b62946f91)] -&gt; name: fax]: 408-555-1213
+[Common] - Clicked: [[ChromeDriver: chrome on XP (fc96532a9cbc0e317df08c7b62946f91)] -&gt; name: newsletter]
+[Common] - Value entered into [[ChromeDriver: chrome on XP (fc96532a9cbc0e317df08c7b62946f91)] -&gt; name: password]: password
+[Common] - Value entered into [[ChromeDriver: chrome on XP (fc96532a9cbc0e317df08c7b62946f91)] -&gt; name: confirmation]: password
+[Common] - Clicked: [[ChromeDriver: chrome on XP (fc96532a9cbc0e317df08c7b62946f91)] -&gt; id: tdb4]
+[Common] - [[ChromeDriver: chrome on XP (fc96532a9cbc0e317df08c7b62946f91)] -&gt; xpath: //*[@id=&quot;bodyContent&quot;]/h1] found
 [Common] - Text value returned: My Account Information
 </system-out>
-    <system-err>Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 38877
+    <system-err>Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 17558
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-May 28, 2019 7:00:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 28, 2019 7:24:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 </system-err>
   </testcase>
-  <testcase classname="io.platform.project.tests.FailureTest" name="testLogOff" time="4.089">
+  <testcase classname="io.platform.project.tests.FailureTest" name="testLogOff" time="4.101">
     <failure message="Element cannot be found" type="java.lang.RuntimeException">java.lang.RuntimeException: Element cannot be found
 	at io.platform.project.commons.Common.clickElement(Common.java:57)
 	at io.platform.project.pageObjects.CatalogPage.clickLogOffButton(CatalogPage.java:132)
@@ -256,20 +293,20 @@ INFO: Detected dialect: OSS
 [ReadPropertyFile] - Value in Property file for key catalogPageURL is http://107.170.213.234/catalog
 [Common] - Element cannot be found - Proxy element for: DefaultElementLocator &apos;By.id: tdb4&apos;
 </system-out>
-    <system-err>Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 40549
+    <system-err>Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 10478
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-May 28, 2019 7:00:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 28, 2019 7:24:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 </system-err>
   </testcase>
-  <testcase classname="io.platform.project.tests.ForgotPasswordTest" name="testForgotPasswordBackButton" time="4.855"/>
-  <testcase classname="io.platform.project.tests.ForgotPasswordTest" name="testForgotPasswordBadEmailAddress" time="4.686"/>
-  <testcase classname="io.platform.project.tests.ForgotPasswordTest" name="testForgotPasswordGoodEmailAddress" time="6.943"/>
+  <testcase classname="io.platform.project.tests.ForgotPasswordTest" name="testForgotPasswordBackButton" time="4.821"/>
+  <testcase classname="io.platform.project.tests.ForgotPasswordTest" name="testForgotPasswordBadEmailAddress" time="4.694"/>
+  <testcase classname="io.platform.project.tests.ForgotPasswordTest" name="testForgotPasswordGoodEmailAddress" time="7.109"/>
   <testcase classname="io.platform.project.tests.ForgotPasswordTest" name="testForgotPasswordGoodEmailAddressSecondRequest" time="5.081"/>
-  <testcase classname="io.platform.project.tests.ForgotPasswordTest" name="testForgotPasswordNoEmailAddress" time="4.755"/>
-  <testcase classname="io.platform.project.tests.LoginTest" name="testLogin" time="4.842"/>
-  <testcase classname="io.platform.project.tests.LoginTest" name="testLogin" time="2.696">
+  <testcase classname="io.platform.project.tests.ForgotPasswordTest" name="testForgotPasswordNoEmailAddress" time="4.767"/>
+  <testcase classname="io.platform.project.tests.LoginTest" name="testLogin" time="5.098"/>
+  <testcase classname="io.platform.project.tests.LoginTest" name="testLogin" time="2.62">
     <failure message="expected [Welcome to iBusiness] but found [Welcome, Please Sign In]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Welcome to iBusiness] but found [Welcome, Please Sign In]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
@@ -286,20 +323,20 @@ Assertion Passed
 [WebDriverManager] - Driver Initialization successful
 [ReadPropertyFile] - Value in Property file for key catalogPageURL is http://107.170.213.234/catalog
 [Common] - Clicked: Proxy element for: DefaultElementLocator &apos;By.linkText: log yourself in&apos;
-[Common] - Value entered into [[ChromeDriver: chrome on XP (8220cc0c5a4a167ac236427c293d5d7b)] -&gt; name: email_address]: 
-[Common] - Value entered into [[ChromeDriver: chrome on XP (8220cc0c5a4a167ac236427c293d5d7b)] -&gt; name: password]: 
-[Common] - Clicked: [[ChromeDriver: chrome on XP (8220cc0c5a4a167ac236427c293d5d7b)] -&gt; id: tdb5]
-[Common] - [[ChromeDriver: chrome on XP (8220cc0c5a4a167ac236427c293d5d7b)] -&gt; xpath: //*[@id=&quot;bodyContent&quot;]/h1] found
+[Common] - Value entered into [[ChromeDriver: chrome on XP (7604dd7802f771266ba74fbd47e426b6)] -&gt; name: email_address]: 
+[Common] - Value entered into [[ChromeDriver: chrome on XP (7604dd7802f771266ba74fbd47e426b6)] -&gt; name: password]: 
+[Common] - Clicked: [[ChromeDriver: chrome on XP (7604dd7802f771266ba74fbd47e426b6)] -&gt; id: tdb5]
+[Common] - [[ChromeDriver: chrome on XP (7604dd7802f771266ba74fbd47e426b6)] -&gt; xpath: //*[@id=&quot;bodyContent&quot;]/h1] found
 [Common] - Text value returned: Welcome, Please Sign In
 </system-out>
-    <system-err>Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 41443
+    <system-err>Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 37673
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-May 28, 2019 7:01:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 28, 2019 7:25:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 </system-err>
   </testcase>
-  <testcase classname="io.platform.project.tests.LoginTest" name="testLogin" time="2.82">
+  <testcase classname="io.platform.project.tests.LoginTest" name="testLogin" time="2.772">
     <failure message="expected [Welcome to iBusiness] but found [Welcome, Please Sign In]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Welcome to iBusiness] but found [Welcome, Please Sign In]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
@@ -317,19 +354,19 @@ Assertion Failed. Screenshot taken.
 [WebDriverManager] - Driver Initialization successful
 [ReadPropertyFile] - Value in Property file for key catalogPageURL is http://107.170.213.234/catalog
 [Common] - Clicked: Proxy element for: DefaultElementLocator &apos;By.linkText: log yourself in&apos;
-[Common] - Value entered into [[ChromeDriver: chrome on XP (2cf57b2d28fd180fb95dddd3db4f8a1e)] -&gt; name: email_address]: lars@test.com
-[Common] - Value entered into [[ChromeDriver: chrome on XP (2cf57b2d28fd180fb95dddd3db4f8a1e)] -&gt; name: password]: incorrect
-[Common] - Clicked: [[ChromeDriver: chrome on XP (2cf57b2d28fd180fb95dddd3db4f8a1e)] -&gt; id: tdb5]
-[Common] - [[ChromeDriver: chrome on XP (2cf57b2d28fd180fb95dddd3db4f8a1e)] -&gt; xpath: //*[@id=&quot;bodyContent&quot;]/h1] found
+[Common] - Value entered into [[ChromeDriver: chrome on XP (e4c08f04c611531984ffb67c00212746)] -&gt; name: email_address]: lars@test.com
+[Common] - Value entered into [[ChromeDriver: chrome on XP (e4c08f04c611531984ffb67c00212746)] -&gt; name: password]: incorrect
+[Common] - Clicked: [[ChromeDriver: chrome on XP (e4c08f04c611531984ffb67c00212746)] -&gt; id: tdb5]
+[Common] - [[ChromeDriver: chrome on XP (e4c08f04c611531984ffb67c00212746)] -&gt; xpath: //*[@id=&quot;bodyContent&quot;]/h1] found
 [Common] - Text value returned: Welcome, Please Sign In
 </system-out>
-    <system-err>Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 13302
+    <system-err>Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 6777
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-May 28, 2019 7:01:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 28, 2019 7:25:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 </system-err>
   </testcase>
-  <testcase classname="io.platform.project.tests.PlaceAndConfirmOrderTest" name="test" time="15.541"/>
-  <testcase classname="io.platform.project.tests.PrintSearchResultsTest" name="printAllResultTitles" time="7.703"/>
+  <testcase classname="io.platform.project.tests.PlaceAndConfirmOrderTest" name="test" time="14.955"/>
+  <testcase classname="io.platform.project.tests.PrintSearchResultsTest" name="printAllResultTitles" time="7.675"/>
 </testsuite>

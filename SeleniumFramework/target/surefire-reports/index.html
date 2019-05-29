@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 10 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 11 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">21 methods, 10 failed,   11 passed</span>
+                    <span class="method-stats">21 methods, 11 failed,   10 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -101,17 +101,17 @@
                     <div class="method-list-content failed suite-Command_line_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Command_line_suite" title="io.platform.project.tests.ContactUsTest" class="method navigator-link" hash-for-method="contactUsTest(Lars Jones, lars@test, Howdy!)">contactUsTest(Lars Jones, lars@test, Howdy!)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Command_line_suite" title="io.platform.project.tests.ContactUsTest" class="method navigator-link" hash-for-method="contactUsTest(Lars Jonse, lars@test.com, Howdy!)">contactUsTest(Lars Jonse, lars@test.com, Howdy!)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Command_line_suite" title="io.platform.project.tests.ContactUsTest" class="method navigator-link" hash-for-method="contactUsTest(Lars Jones, @gmail.com, Howdy!)">contactUsTest(Lars Jones, @gmail.com, Howdy!)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Command_line_suite" title="io.platform.project.tests.ContactUsTest" class="method navigator-link" hash-for-method="contactUsTest(Lars Jones, , Howdy!)">contactUsTest(Lars Jones, , Howdy!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="io.platform.project.tests.ContactUsTest" class="method navigator-link" hash-for-method="contactUsTest(Lars Jones, lars@test, Howdy!)">contactUsTest(Lars Jones, lars@test, Howdy!)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -121,7 +121,12 @@
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Command_line_suite" title="io.platform.project.tests.ContactUsTest" class="method navigator-link" hash-for-method="contactUsTest(Lars Jones, , Howdy!)">contactUsTest(Lars Jones, , Howdy!)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Command_line_suite" title="io.platform.project.tests.ContactUsTest" class="method navigator-link" hash-for-method="contactUsTest(, lars@test.com, Howdy!)">contactUsTest(, lars@test.com, Howdy!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="io.platform.project.tests.ContactUsTest" class="method navigator-link" hash-for-method="contactUsTest(Lars Jones, @gmail.com, Howdy!)">contactUsTest(Lars Jones, @gmail.com, Howdy!)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -158,11 +163,6 @@
                       <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
                     </span>
                     <div class="method-list-content passed suite-Command_line_suite">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Command_line_suite" title="io.platform.project.tests.ContactUsTest" class="method navigator-link" hash-for-method="contactUsTest(, lars@test.com, Howdy!)">contactUsTest(, lars@test.com, Howdy!)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Command_line_suite" title="io.platform.project.tests.PrintSearchResultsTest" class="method navigator-link" hash-for-method="printAllResultTitles">printAllResultTitles</a> <!-- method navigator-link -->
@@ -228,25 +228,6 @@
           <div class="suite-Command_line_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">io.platform.project.tests.CreateNewAccountTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="test">
-                  </a> <!-- test -->
-                  <span class="method-name">test</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [Your Account Has Been Created!] but found [My Account Information]
-	at io.platform.project.tests.CreateNewAccountTest.test(CreateNewAccountTest.java:57)
-... Removed 39 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-failed -->
-          <div class="suite-Command_line_suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
               <span class="class-name">io.platform.project.tests.FailureTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -268,22 +249,28 @@
           <div class="suite-Command_line_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">io.platform.project.tests.ContactUsTest</span>
+              <span class="class-name">io.platform.project.tests.CreateNewAccountTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="contactUsTest(Lars Jones, lars@test, Howdy!)">
-                  </a> <!-- contactUsTest(Lars Jones, lars@test, Howdy!) -->
-                  <span class="method-name">contactUsTest</span>
-                  <span class="parameters">(Lars Jones, lars@test, Howdy!)</span>
-                  <div class="stack-trace">java.lang.RuntimeException: Malformed email address
-	at io.platform.project.pageObjects.ContactUsPage.fillInEmailTextBox(ContactUsPage.java:58)
-	at io.platform.project.tests.ContactUsTest.contactUsTest(ContactUsTest.java:36)
-... Removed 34 stack frames
+                  <a name="test">
+                  </a> <!-- test -->
+                  <span class="method-name">test</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Your Account Has Been Created!] but found [My Account Information]
+	at io.platform.project.tests.CreateNewAccountTest.test(CreateNewAccountTest.java:57)
+... Removed 39 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">io.platform.project.tests.ContactUsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="contactUsTest(Lars Jonse, lars@test.com, Howdy!)">
@@ -300,10 +287,23 @@ Enquiry: Howdy!]
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="contactUsTest(Lars Jones, @gmail.com, Howdy!)">
-                  </a> <!-- contactUsTest(Lars Jones, @gmail.com, Howdy!) -->
+                  <a name="contactUsTest(Lars Jones, , Howdy!)">
+                  </a> <!-- contactUsTest(Lars Jones, , Howdy!) -->
                   <span class="method-name">contactUsTest</span>
-                  <span class="parameters">(Lars Jones, @gmail.com, Howdy!)</span>
+                  <span class="parameters">(Lars Jones, , Howdy!)</span>
+                  <div class="stack-trace">java.lang.RuntimeException: Malformed email address
+	at io.platform.project.pageObjects.ContactUsPage.fillInEmailTextBox(ContactUsPage.java:58)
+	at io.platform.project.tests.ContactUsTest.contactUsTest(ContactUsTest.java:36)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactUsTest(Lars Jones, lars@test, Howdy!)">
+                  </a> <!-- contactUsTest(Lars Jones, lars@test, Howdy!) -->
+                  <span class="method-name">contactUsTest</span>
+                  <span class="parameters">(Lars Jones, lars@test, Howdy!)</span>
                   <div class="stack-trace">java.lang.RuntimeException: Malformed email address
 	at io.platform.project.pageObjects.ContactUsPage.fillInEmailTextBox(ContactUsPage.java:58)
 	at io.platform.project.tests.ContactUsTest.contactUsTest(ContactUsTest.java:36)
@@ -326,10 +326,24 @@ Enquiry: Howdy!]
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="contactUsTest(Lars Jones, , Howdy!)">
-                  </a> <!-- contactUsTest(Lars Jones, , Howdy!) -->
+                  <a name="contactUsTest(, lars@test.com, Howdy!)">
+                  </a> <!-- contactUsTest(, lars@test.com, Howdy!) -->
                   <span class="method-name">contactUsTest</span>
-                  <span class="parameters">(Lars Jones, , Howdy!)</span>
+                  <span class="parameters">(, lars@test.com, Howdy!)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Your enquiry has been successfully sent to the Store Owner.] but found [Full Name:
+E-Mail Address:
+Enquiry: Howdy!]
+	at io.platform.project.tests.ContactUsTest.contactUsTest(ContactUsTest.java:39)
+... Removed 39 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactUsTest(Lars Jones, @gmail.com, Howdy!)">
+                  </a> <!-- contactUsTest(Lars Jones, @gmail.com, Howdy!) -->
+                  <span class="method-name">contactUsTest</span>
+                  <span class="parameters">(Lars Jones, @gmail.com, Howdy!)</span>
                   <div class="stack-trace">java.lang.RuntimeException: Malformed email address
 	at io.platform.project.pageObjects.ContactUsPage.fillInEmailTextBox(ContactUsPage.java:58)
 	at io.platform.project.tests.ContactUsTest.contactUsTest(ContactUsTest.java:36)
@@ -401,22 +415,6 @@ Enquiry: Howdy!]
                   <a name="printAllResultTitles">
                   </a> <!-- printAllResultTitles -->
                   <span class="method-name">printAllResultTitles</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-passed -->
-          <div class="suite-Command_line_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">io.platform.project.tests.ContactUsTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="contactUsTest(, lars@test.com, Howdy!)">
-                  </a> <!-- contactUsTest(, lars@test.com, Howdy!) -->
-                  <span class="method-name">contactUsTest</span>
-                  <span class="parameters">(, lars@test.com, Howdy!)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -579,23 +577,23 @@ data.addRows(21);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'test')
 data.setCell(0, 2, 'io.platform.project.tests.PlaceAndConfirmOrderTest')
-data.setCell(0, 3, 15540);
+data.setCell(0, 3, 14956);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'test')
-data.setCell(1, 2, 'io.platform.project.tests.CreateNewAccountTest')
-data.setCell(1, 3, 7774);
+data.setCell(1, 1, 'printAllResultTitles')
+data.setCell(1, 2, 'io.platform.project.tests.PrintSearchResultsTest')
+data.setCell(1, 3, 7675);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'printAllResultTitles')
-data.setCell(2, 2, 'io.platform.project.tests.PrintSearchResultsTest')
-data.setCell(2, 3, 7703);
+data.setCell(2, 1, 'test')
+data.setCell(2, 2, 'io.platform.project.tests.CreateNewAccountTest')
+data.setCell(2, 3, 7632);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'testForgotPasswordGoodEmailAddress')
 data.setCell(3, 2, 'io.platform.project.tests.ForgotPasswordTest')
-data.setCell(3, 3, 6944);
+data.setCell(3, 3, 7109);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'contactUsTest')
-data.setCell(4, 2, 'io.platform.project.tests.ContactUsTest')
-data.setCell(4, 3, 5729);
+data.setCell(4, 1, 'testLogin')
+data.setCell(4, 2, 'io.platform.project.tests.LoginTest')
+data.setCell(4, 3, 5098);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'testForgotPasswordGoodEmailAddressSecondRequest')
 data.setCell(5, 2, 'io.platform.project.tests.ForgotPasswordTest')
@@ -603,63 +601,63 @@ data.setCell(5, 3, 5082);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'testForgotPasswordBackButton')
 data.setCell(6, 2, 'io.platform.project.tests.ForgotPasswordTest')
-data.setCell(6, 3, 4855);
+data.setCell(6, 3, 4821);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'testLogin')
-data.setCell(7, 2, 'io.platform.project.tests.LoginTest')
-data.setCell(7, 3, 4843);
+data.setCell(7, 1, 'testForgotPasswordNoEmailAddress')
+data.setCell(7, 2, 'io.platform.project.tests.ForgotPasswordTest')
+data.setCell(7, 3, 4766);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'testForgotPasswordNoEmailAddress')
+data.setCell(8, 1, 'testForgotPasswordBadEmailAddress')
 data.setCell(8, 2, 'io.platform.project.tests.ForgotPasswordTest')
-data.setCell(8, 3, 4755);
+data.setCell(8, 3, 4694);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'testForgotPasswordBadEmailAddress')
-data.setCell(9, 2, 'io.platform.project.tests.ForgotPasswordTest')
-data.setCell(9, 3, 4687);
+data.setCell(9, 1, 'testLogOff')
+data.setCell(9, 2, 'io.platform.project.tests.FailureTest')
+data.setCell(9, 3, 4101);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'testLogOff')
-data.setCell(10, 2, 'io.platform.project.tests.FailureTest')
-data.setCell(10, 3, 4089);
+data.setCell(10, 1, 'testLogin')
+data.setCell(10, 2, 'io.platform.project.tests.LoginTest')
+data.setCell(10, 3, 2772);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'testLogin')
 data.setCell(11, 2, 'io.platform.project.tests.LoginTest')
-data.setCell(11, 3, 2819);
+data.setCell(11, 3, 2619);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'testLogin')
-data.setCell(12, 2, 'io.platform.project.tests.LoginTest')
-data.setCell(12, 3, 2695);
+data.setCell(12, 1, 'testGoToLoginPage')
+data.setCell(12, 2, 'io.platform.project.tests.CatalogPageTest')
+data.setCell(12, 3, 2239);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'testGoToLoginPage')
-data.setCell(13, 2, 'io.platform.project.tests.CatalogPageTest')
-data.setCell(13, 3, 2549);
+data.setCell(13, 1, 'contactUsTest')
+data.setCell(13, 2, 'io.platform.project.tests.ContactUsTest')
+data.setCell(13, 3, 597);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'testLoggedIn')
-data.setCell(14, 2, 'io.platform.project.tests.CatalogPageTest')
-data.setCell(14, 3, 870);
+data.setCell(14, 1, 'contactUsTest')
+data.setCell(14, 2, 'io.platform.project.tests.ContactUsTest')
+data.setCell(14, 3, 557);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'contactUsTest')
-data.setCell(15, 2, 'io.platform.project.tests.ContactUsTest')
-data.setCell(15, 3, 567);
+data.setCell(15, 1, 'testLoggedIn')
+data.setCell(15, 2, 'io.platform.project.tests.CatalogPageTest')
+data.setCell(15, 3, 239);
 data.setCell(16, 0, 16)
 data.setCell(16, 1, 'contactUsTest')
 data.setCell(16, 2, 'io.platform.project.tests.ContactUsTest')
-data.setCell(16, 3, 124);
+data.setCell(16, 3, 117);
 data.setCell(17, 0, 17)
 data.setCell(17, 1, 'contactUsTest')
 data.setCell(17, 2, 'io.platform.project.tests.ContactUsTest')
-data.setCell(17, 3, 116);
+data.setCell(17, 3, 113);
 data.setCell(18, 0, 18)
 data.setCell(18, 1, 'contactUsTest')
 data.setCell(18, 2, 'io.platform.project.tests.ContactUsTest')
-data.setCell(18, 3, 109);
+data.setCell(18, 3, 110);
 data.setCell(19, 0, 19)
 data.setCell(19, 1, 'contactUsTest')
 data.setCell(19, 2, 'io.platform.project.tests.ContactUsTest')
-data.setCell(19, 3, 83);
+data.setCell(19, 3, 84);
 data.setCell(20, 0, 20)
 data.setCell(20, 1, 'testPageHeader')
 data.setCell(20, 2, 'io.platform.project.tests.CatalogPageTest')
-data.setCell(20, 3, 75);
+data.setCell(20, 3, 77);
 window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
 return data;
 }
@@ -697,279 +695,281 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">testGoToLoginPage</span>
-                <span class="method-start">4859 ms</span>
+                <span class="method-start">4404 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testLoggedIn</span>
-                <span class="method-start">7408 ms</span>
+                <span class="method-start">6644 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testPageHeader</span>
-                <span class="method-start">8278 ms</span>
+                <span class="method-start">6883 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">io.platform.project.tests.ContactUsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">8357 ms</span>
+                <span class="method-start">6964 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">contactUsTest(, , Howdy!)</span>
-                <span class="method-start">14583 ms</span>
+                <span class="method-start">10949 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=contactUsTest status=FAILURE method=ContactUsTest.contactUsTest(java.lang.String, j...)</span>
-                <span class="method-start">14666 ms</span>
+                <span class="method-start">11034 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">15207 ms</span>
+                <span class="method-start">11536 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">contactUsTest(, lars@test.com, Howdy!)</span>
-                <span class="method-start">19104 ms</span>
+                <span class="method-start">15412 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=contactUsTest status=SUCCESS method=ContactUsTest.contactUsTest(java.lang.String, j...)</span>
-                <span class="method-start">24834 ms</span>
+                <span class="method-name">tearDown([TestResult name=contactUsTest status=FAILURE method=ContactUsTest.contactUsTest(java.lang.String, j...)</span>
+                <span class="method-start">15969 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">24896 ms</span>
+                <span class="method-start">16339 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">contactUsTest(Lars Jones, , Howdy!)</span>
-                <span class="method-start">28670 ms</span>
+                <span class="method-start">20423 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=contactUsTest status=FAILURE method=ContactUsTest.contactUsTest(java.lang.String, j...)</span>
-                <span class="method-start">28781 ms</span>
+                <span class="method-start">20534 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">29286 ms</span>
+                <span class="method-start">21033 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">contactUsTest(Lars Jones, lars@test, Howdy!)</span>
-                <span class="method-start">33112 ms</span>
+                <span class="method-start">24891 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=contactUsTest status=FAILURE method=ContactUsTest.contactUsTest(java.lang.String, j...)</span>
-                <span class="method-start">33229 ms</span>
+                <span class="method-start">25008 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">33697 ms</span>
+                <span class="method-start">25469 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">contactUsTest(Lars Jones, @gmail.com, Howdy!)</span>
-                <span class="method-start">37541 ms</span>
+                <span class="method-start">29466 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=contactUsTest status=FAILURE method=ContactUsTest.contactUsTest(java.lang.String, j...)</span>
-                <span class="method-start">37666 ms</span>
+                <span class="method-start">29580 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">38128 ms</span>
+                <span class="method-start">30102 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">contactUsTest(Lars Jonse, lars@test.com, Howdy!)</span>
-                <span class="method-start">41923 ms</span>
+                <span class="method-start">33856 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=contactUsTest status=FAILURE method=ContactUsTest.contactUsTest(java.lang.String, j...)</span>
-                <span class="method-start">42491 ms</span>
+                <span class="method-start">34454 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">io.platform.project.tests.CreateNewAccountTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">42893 ms</span>
+                <span class="method-start">34855 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">test</span>
-                <span class="method-start">46789 ms</span>
+                <span class="method-start">38838 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">54563 ms</span>
+                <span class="method-start">46470 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">io.platform.project.tests.FailureTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">54613 ms</span>
+                <span class="method-start">46528 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testLogOff</span>
-                <span class="method-start">58629 ms</span>
+                <span class="method-start">50521 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testLogOff status=FAILURE method=FailureTest.testLogOff()[pri:0, instance:io.platfo...)</span>
-                <span class="method-start">62719 ms</span>
+                <span class="method-start">54623 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">io.platform.project.tests.ForgotPasswordTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">63117 ms</span>
+                <span class="method-start">55017 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testForgotPasswordBackButton</span>
-                <span class="method-start">66950 ms</span>
+                <span class="method-start">59201 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testForgotPasswordBackButton status=SUCCESS method=ForgotPasswordTest.testForgotPas...)</span>
-                <span class="method-start">71805 ms</span>
+                <span class="method-start">64022 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">71854 ms</span>
+                <span class="method-start">64067 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testForgotPasswordBadEmailAddress</span>
-                <span class="method-start">75799 ms</span>
+                <span class="method-start">67961 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testForgotPasswordBadEmailAddress status=SUCCESS method=ForgotPasswordTest.testForg...)</span>
-                <span class="method-start">80486 ms</span>
+                <span class="method-start">72655 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">80536 ms</span>
+                <span class="method-start">72702 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testForgotPasswordGoodEmailAddress</span>
-                <span class="method-start">84468 ms</span>
+                <span class="method-start">76812 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testForgotPasswordGoodEmailAddress status=SUCCESS method=ForgotPasswordTest.testFor...)</span>
-                <span class="method-start">91412 ms</span>
+                <span class="method-start">83921 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">91459 ms</span>
+                <span class="method-start">83968 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testForgotPasswordGoodEmailAddressSecondRequest</span>
-                <span class="method-start">95460 ms</span>
+                <span class="method-start">88316 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testForgotPasswordGoodEmailAddressSecondRequest status=SUCCESS method=ForgotPasswor...)</span>
-                <span class="method-start">100542 ms</span>
+                <span class="method-start">93398 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">100588 ms</span>
+                <span class="method-start">93445 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testForgotPasswordNoEmailAddress</span>
-                <span class="method-start">104784 ms</span>
+                <span class="method-start">97984 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testForgotPasswordNoEmailAddress status=SUCCESS method=ForgotPasswordTest.testForgo...)</span>
-                <span class="method-start">109539 ms</span>
+                <span class="method-start">102751 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">io.platform.project.tests.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">109585 ms</span>
+                <span class="method-start">102797 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testLogin(lars@test.com, password)</span>
-                <span class="method-start">113526 ms</span>
+                <span class="method-start">106870 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testLogin status=SUCCESS method=LoginTest.testLogin(java.lang.String, java.lang.Str...)</span>
-                <span class="method-start">118369 ms</span>
+                <span class="method-start">111968 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">118424 ms</span>
+                <span class="method-start">112016 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testLogin(, )</span>
-                <span class="method-start">122359 ms</span>
+                <span class="method-start">116179 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testLogin status=FAILURE method=LoginTest.testLogin(java.lang.String, java.lang.Str...)</span>
-                <span class="method-start">125055 ms</span>
+                <span class="method-start">118799 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">125435 ms</span>
+                <span class="method-start">119147 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testLogin(lars@test.com, incorrect)</span>
-                <span class="method-start">129540 ms</span>
+                <span class="method-start">123166 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testLogin status=FAILURE method=LoginTest.testLogin(java.lang.String, java.lang.Str...)</span>
-                <span class="method-start">132359 ms</span>
+                <span class="method-start">125938 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">io.platform.project.tests.PlaceAndConfirmOrderTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">132716 ms</span>
+                <span class="method-start">126339 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test</span>
-                <span class="method-start">136699 ms</span>
+                <span class="method-start">130336 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=test status=SUCCESS method=PlaceAndConfirmOrderTest.test()[pri:0, instance:io.platf...)</span>
-                <span class="method-start">152239 ms</span>
+                <span class="method-start">145292 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">io.platform.project.tests.PrintSearchResultsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">152290 ms</span>
+                <span class="method-start">145347 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">printAllResultTitles</span>
-                <span class="method-start">156325 ms</span>
+                <span class="method-start">149217 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=printAllResultTitles status=SUCCESS method=PrintSearchResultsTest.printAllResultTit...)</span>
-                <span class="method-start">164028 ms</span>
+                <span class="method-start">156892 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">io.platform.project.tests.CatalogPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">164078 ms</span>
+                <span class="method-start">156938 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
