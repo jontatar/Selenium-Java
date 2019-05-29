@@ -3,10 +3,12 @@ package io.platform.project.tests;
 import static org.testng.Assert.assertEquals;
 
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import io.platform.project.commons.Common;
 import io.platform.project.commons.WebDriverManager;
 import io.platform.project.pageObjects.CatalogPage;
 
@@ -14,8 +16,9 @@ public class CatalogPageTest {
 	WebDriver driver;
 	CatalogPage catalogPage;
 	WebDriverManager webDrivermanager;
+	Common common;
 	
-	@BeforeTest
+	@BeforeMethod
 	public void setup() {
 		//Open Chrome
 		webDrivermanager = new WebDriverManager();
@@ -23,6 +26,7 @@ public class CatalogPageTest {
 		//Open URL
 		catalogPage = new CatalogPage(driver);
 		catalogPage.openHomePageURL(driver);
+		common = new Common();
 	}
 	
 	@Test
@@ -41,8 +45,9 @@ public class CatalogPageTest {
 		catalogPage.clickLogYourselfInLink();
 	}
 	
-	@AfterTest
-	public void tearDown() {
+	@AfterMethod
+	public void tearDown(ITestResult result) throws Exception {
+		common.logResults(driver, result.getStatus(), result.getMethod().getMethodName());
 		driver.close();
 	}
 
