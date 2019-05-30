@@ -9,6 +9,7 @@ import java.util.Date;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.testng.Assert;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -66,6 +67,18 @@ public class Common {
 		} catch (NoSuchElementException ex) {
 			logger.info("Element cannot be found - " + elem);
 			throw new RuntimeException("Element cannot be found");
+		}
+	}
+	
+	public static void check( WebDriver driver, boolean condition, String failMessage){
+		if (condition) {
+			logger.info("Check Condition True");
+			Assert.assertTrue(true);
+		} else {
+//			screenShot(driver,currentThread().getStackTrace()[2].getClassName(),
+//					currentThread().getStackTrace()[2].getMethodName());
+			logger.info(failMessage);
+			Assert.fail();
 		}
 	}
 
